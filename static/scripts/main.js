@@ -4,7 +4,7 @@ var counter = { num: 0 };
 
 function writeToTerminal(i) {
     terminal.textContent.charAt(terminal.textContent.length - 1);
-    terminal.textContent = terminal.textContent + content.charAt(i.num) + "_";
+    terminal.textContent = terminal.textContent + content.charAt(i.num);
     i.num++;
 }
 terminal.textContent = "";
